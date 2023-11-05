@@ -67,7 +67,11 @@ a {
 
   background-color: #e8eff9;
 }
-
+@media (max-width: 640px){
+  .menu {
+    padding: 64px 74px;
+  }
+}
 .menu:target {
   transform: translateX(0);
 }
@@ -96,7 +100,11 @@ a {
   padding: 120px;
   background-color: #fff;
 }
-
+@media (max-width: 640px){
+  .main {
+    padding: 74px;
+  }
+}
 /* #region recommended */
 .recommended {
   margin-bottom: 120px;
@@ -115,7 +123,11 @@ a {
   gap: 24px;
   justify-content: center;
 }
-
+@media (max-width: 640px){
+  .recommended__products {
+    flex-direction: column;
+  }
+}
 .product {
   flex-basis: 324px;
 }
